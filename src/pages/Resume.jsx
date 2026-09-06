@@ -1,3 +1,5 @@
+import resumePdf from "/assets/SWE_Resume%20(2).pdf";
+
 export default function Resume() {
   return (
     <div className="resume-page">
@@ -6,11 +8,11 @@ export default function Resume() {
       <div className="resume-frame">
         <iframe
           title="RJ-06 software engineering resume"
-          src="/assets/SWE_Resume%20(2).pdf"
+          src={resumePdf}
         />
       </div>
       <p className="resume-fallback">
-        <a href="/assets/SWE_Resume%20(2).pdf" target="_blank" rel="noreferrer">
+        <a href={resumePdf} target="_blank" rel="noreferrer">
           Open the resume PDF in a new tab
         </a>
       </p>

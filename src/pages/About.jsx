@@ -1,4 +1,5 @@
 import { profile } from "../data/content.js";
+import photoOfMe from "/assets/picture_of_me.jpg";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
 
       <div className="placeholder-stack" style={{ marginTop: "2rem" }}>
         <div className="placeholder photo-slot">
-          <img src="/assets/picture_of_me.jpg" alt="Rahul" />
+          <img src={photoOfMe} alt="Rahul" />
         </div>
         <div className="placeholder">
           <div className="label">Intro</div>
