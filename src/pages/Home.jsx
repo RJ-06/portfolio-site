@@ -26,10 +26,10 @@ export default function Home() {
       <section>
         <div className="section-head">
           <h2>What I'm Currently Working On</h2>
-          <p>
-            I'm currently the game director of Cloudy Critters, a roguelike deckbuilder zoobuilder game. We're currently in the early stages of development, with an expected release date of December 31st, 2026! Be on the lookout for our steam page and trailer coming in the near future, and please give us a wishlist when the time comes!
-          </p>
         </div>
+        <p>
+            I'm currently the game director of Cloudy Critters, a roguelike deckbuilder zoobuilder game. We're currently in the early stages of development, with an expected release date of December 31st, 2026! Be on the lookout for our steam page and trailer coming in the near future, and please give us a wishlist when the time comes!
+        </p>
       </section>
 
       <div className="cta-row">
