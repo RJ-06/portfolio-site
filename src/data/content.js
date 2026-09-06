@@ -101,10 +101,10 @@ export const itchGames = [
     description:
       "Made for ACM Studio Student Run Studios 2024-2025. Local multiplayer couch vs. game of hot potato. Play across multiple stages and use multiple powerups to be the last one standing!",
   },
-    {
+  {
     title: "Cloudy Critters",
     embedId: "",
-      image: "/assets/Cloudy_Critters_Logo_Pink.png",
+    image: getAssetUrl("assets/Cloudy_Critters_Logo_Pink.png"),
     url: "to be released",
     role: "Game Director, Programming",
     description:
