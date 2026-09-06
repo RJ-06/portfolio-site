@@ -1,14 +1,15 @@
 import { profile } from "../data/content.js";
-import photoOfMe from "/assets/picture_of_me.jpg";
 
 export default function About() {
+  const photoUrl = `${import.meta.env.BASE_URL}assets/picture_of_me.jpg`;
+  
   return (
     <>
       <h1>About me</h1>
 
       <div className="placeholder-stack" style={{ marginTop: "2rem" }}>
         <div className="placeholder photo-slot">
-          <img src={photoOfMe} alt="Rahul" />
+          <img src={photoUrl} alt="Rahul" />
         </div>
         <div className="placeholder">
           <div className="label">Intro</div>

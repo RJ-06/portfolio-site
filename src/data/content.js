@@ -1,3 +1,7 @@
+const getAssetUrl = (path) => {
+  return `${import.meta.env.BASE_URL}${path}`;
+};
+
 export const profile = {
   name: "RJ",
   githubHandle: "RJ-06",
@@ -6,7 +10,7 @@ export const profile = {
   itch: "https://lanzalot.itch.io/",
   goodreads: "https://www.goodreads.com/user/show/188364003-rahul-j",
   linkedin: "https://www.linkedin.com/in/rahul-jogadhenu-3037b2203/",
-  avatar: "/assets/lanzalot_logo.png",
+  avatar: getAssetUrl("assets/lanzalot_logo.png"),
 };
 
 export const pinnedRepos = [
