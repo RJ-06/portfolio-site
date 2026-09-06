@@ -20,14 +20,14 @@ export const pinnedRepos = [
     url: "https://github.com/RJ-06/Fiat-Ludum-2026",
     language: "C#",
     blurb:
-      "Unity project for UCLA Fiat Ludum 2026 — To the Ends of the Earth.",
+      "Unity project made for UCLA Fiat Ludum 2026 where it won Best Gameplay — To the Ends of the Earth.",
   },
   {
     name: "ai-tour-guide-cs35l-project",
     owner: "JCVillanova",
     url: "https://github.com/JCVillanova/ai-tour-guide-cs35l-project",
     language: "TypeScript",
-    blurb: "CS35L project: Amblr, a Gemini-powered mobile tour guide.",
+    blurb: "CS35L project",
   },
   {
     name: "CouchPotatoes",
@@ -49,7 +49,7 @@ export const pinnedRepos = [
 export const softwareProjects = [
   {
     title: "Amblr — CS35L",
-    tags: ["TypeScript", "Expo", "Gemini", "Google Maps"],
+    tags: ["TypeScript", "React Native", "Expo", "Gemini", "Google Maps"],
     repo: "https://github.com/JCVillanova/ai-tour-guide-cs35l-project",
     extraLinks: [
       {
@@ -58,7 +58,7 @@ export const softwareProjects = [
       },
     ],
     description:
-      "UCLA CS35L group project. Amblr is a mobile tour-guide app that pairs Gemini with the Google Maps API: search a destination, generate a walking route, and hear descriptions of places along the way. Explore mode talks about nearby spots from your current location; History and Login keep past tours behind an account.",
+      "UCLA CS35L group project. Amblr is a mobile tour-guide app that pairs Gemini with the Google Maps API: search a destination, generate a walking route, and hear descriptions of places along the way. Explore mode talks about nearby spots from your current location, and lets you plan a trip around nearby areas. Our account system allows users to view their favorite locations and routes, and keep them saved to look at later.",
   },
   {
     title: "Verilog Breakout",
@@ -71,7 +71,7 @@ export const softwareProjects = [
       },
     ],
     description:
-      "Hardware implementation of Breakout in Verilog, targeting an FPGA (VGA output and seven-segment display). Collaborative lab project — source lives on Heborine/VerilogBreakout.",
+      "Hardware implementation of Breakout in Verilog, targeting a Basys 3 FPGA board (VGA output and seven-segment display). All game logic, including rendering, physics, and clock synchronization was made by us.",
   },
 ];
 

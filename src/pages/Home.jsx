@@ -9,7 +9,7 @@ export default function Home() {
           <p className="kicker">Portfolio</p>
           <h1>Games and software</h1>
           <p className="lede">
-            Games and software. GitHub{" "}
+            Hi, I'm Rahul, a 3rd year CSE student at UCLA. I really like making games! Check out what I've been working on. GitHub{" "}
             <a href={profile.github} target="_blank" rel="noreferrer">
               @{profile.githubHandle}
             </a>
@@ -25,21 +25,10 @@ export default function Home() {
 
       <section>
         <div className="section-head">
-          <h2>Pinned on GitHub</h2>
-          <p>from @{profile.githubHandle}</p>
-        </div>
-        <div className="grid">
-          {pinnedRepos.map((repo) => (
-            <article className="card" key={repo.url}>
-              <h3>
-                <a href={repo.url} target="_blank" rel="noreferrer">
-                  {repo.owner}/{repo.name}
-                </a>
-              </h3>
-              <p className="meta">{repo.language}</p>
-              <p>{repo.blurb}</p>
-            </article>
-          ))}
+          <h2>What I'm Currently Working On</h2>
+          <p>
+            I'm currently the game director of Cloudy Critters, a roguelike deckbuilder zoobuilder game. We're currently in the early stages of development, with an expected release date of December 31st, 2026! Be on the lookout for our steam page and trailer coming in the near future, and please give us a wishlist when the time comes!
+          </p>
         </div>
       </section>
 
