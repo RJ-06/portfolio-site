@@ -27,7 +27,7 @@ export default function Software() {
               <a href={project.repo} target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              {project.extraLinks.map((link) => (
+              {(project.extraLinks ?? []).map((link) => (
                 <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
                   {link.label}
                 </a>
@@ -41,6 +41,7 @@ export default function Software() {
           <p>
             This past summer (2025), I interned at Werfen, a biotech company which works on in vitro medical devices. I got to work on the Gem Hemochron 100 team, where I developed a Python and bash based internal DevOps package which uses a device-side fuzzing based approach to
 test embedded medical-device software across multiple products. I also worked on CI/CD automation using Jenkins, to automate the creation of build documentation.
+            I also teach UCLA's Engineering 1: Game Development course, where I help students learn the basics of programming and game development in C# and Unity, and have instructed nearly 60 students. 
           </p>
         </section>
       </div>
