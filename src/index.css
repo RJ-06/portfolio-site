@@ -346,6 +346,10 @@ h3 {
   background: #0b0b0b;
 }
 
+.embed-wrap.image-wrap {
+  background: transparent;
+}
+
 .embed-wrap iframe {
   display: block;
   width: 100%;
