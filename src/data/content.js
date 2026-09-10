@@ -48,6 +48,13 @@ export const pinnedRepos = [
 
 export const softwareProjects = [
   {
+    title: "Cross Movement Disorders Lab",
+    tags: ["Unity", "Unreal Engine", "VR", "C#"],
+    repo: "private repository",
+    description:
+      " Unity and Unreal Engine based VR simulations used for clinical studies on freezingof gait in Parkinson’s disease patients, controlled testing and data collection."
+  },
+  {
     title: "Amblr — CS35L",
     tags: ["TypeScript", "React Native", "Expo", "Gemini", "Google Maps"],
     repo: "https://github.com/JCVillanova/ai-tour-guide-cs35l-project",
@@ -80,6 +87,12 @@ export const itchGames = [
     title: "To the Ends of the Earth",
     embedId: "4474699",
     url: "https://vlad-the-inhaler.itch.io/to-the-ends-of-the-earth",
+    extraLinks: [
+      {
+        label: "GitHub repo",
+        href: "https://github.com/RJ-06/Fiat-Ludum-2026"
+      },
+    ],
     role: "Programming",
     description:
       "Made for Fiat Ludum 2026, where it won Best Gameplay!. Recruit, raid, and sail in this overcooked inspired 3d pirate ship game to prove the earth is flat.",
@@ -89,6 +102,12 @@ export const itchGames = [
     title: "SSH: a game about securing shells",
     embedId: "4881940",
     url: "https://candidaries.itch.io/ssh-a-game-about-securing-shells",
+    extraLinks: [
+      {
+        label: "GitHub repo",
+        href: "https://github.com/Destroh33/ClubClubJamJam"
+      },
+    ],
     role: "Programming",
     description:
       "Made for the Club Club Jam Jam, SSH is a coding-based Sokoban puzzle about housing hermit crabs. Write code to give the different crabs different instructions, and upload different code to different crabs!.",
@@ -97,6 +116,12 @@ export const itchGames = [
     title: "Couch Potatoes",
     embedId: "4553410",
     url: "https://justanothermusician7.itch.io/couch-potatoes",
+    extraLinks: [
+      {
+        label: "GitHub repo",
+        href: "https://github.com/RJ-06/CouchPotatoes"
+      },
+    ],
     role: "Co-lead",
     description:
       "Made for ACM Studio Student Run Studios 2024-2025. Local multiplayer couch vs. game of hot potato. Play across multiple stages and use multiple powerups to be the last one standing!",
@@ -105,7 +130,13 @@ export const itchGames = [
     title: "Cloudy Critters",
     embedId: "",
     image: getAssetUrl("assets/Cloudy_Critters_Logo_Pink.png"),
-    url: "to be released",
+    url: "",
+    extraLinks: [
+      {
+        label: "GitHub repo",
+        href: "https://github.com/Destroh33/SkyZoo"
+      },
+    ],
     role: "Game Director, Programming",
     description:
       "Made by ACM Studios: Studio Black Belts, Releasing on Steam on Dec. 31, 2026. Cloudy Critters is a roguelike deckbuilder zoobuilder, where you build a zoo filled with different animal exhibits that synergize together to score points. Build an incredible zoo in this balatro inspired citybuilder!",

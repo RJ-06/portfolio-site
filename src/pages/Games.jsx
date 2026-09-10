@@ -21,15 +21,23 @@ export default function Games() {
               image={game.image}
               title={game.title}
               url={game.url}
+              extraLinks={game.extraLinks}
             />
             <div>
               <h2>{game.title}</h2>
               <p className="meta">{game.role}</p>
               <p>{game.description}</p>
               <p className="links" style={{ marginTop: "0.85rem" }}>
-                <a href={game.url} target="_blank" rel="noreferrer">
-                  Open on itch.io
-                </a>
+                {game.url && (
+                  <a href={game.url} target="_blank" rel="noreferrer">
+                    Open on itch.io
+                  </a>
+                )}
+                {(game.extraLinks ?? []).map((link) => (
+                  <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+                    {link.label}
+                  </a>
+                ))}
               </p>
             </div>
           </article>
