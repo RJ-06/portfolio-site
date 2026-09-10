@@ -7,7 +7,7 @@ export default function Home() {
       <section className="hero">
         <div>
           <p className="kicker">Portfolio</p>
-          <h1>Games and software</h1>
+          <h1>Rahul Jogadhenu</h1>
           <p className="lede">
             Hi, I'm Rahul, a 3rd year CSE student at UCLA. I really like making games! Check out what I've been working on. GitHub{" "}
             <a href={profile.github} target="_blank" rel="noreferrer">
