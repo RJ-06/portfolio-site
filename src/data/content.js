@@ -133,8 +133,8 @@ export const itchGames = [
     url: "",
     extraLinks: [
       {
-        label: "GitHub repo",
-        href: "https://github.com/Destroh33/SkyZoo"
+        label: "Instagram",
+        href: "https://www.instagram.com/uclaacmstudioblack/"
       },
     ],
     role: "Game Director, Programming",
