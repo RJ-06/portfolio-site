@@ -1,6 +1,9 @@
 export default function Resume() {
-  const resumeUrl = `${import.meta.env.BASE_URL}assets/SWE_Resume%20(2).pdf`;
-  
+  const resumeUrl = new URL(
+    `assets/${encodeURIComponent('SWE_Resume (2).pdf')}`,
+    `${window.location.origin}${import.meta.env.BASE_URL}`
+  ).toString();
+
   return (
     <div className="resume-page">
       <p className="kicker">Resume</p>
@@ -9,6 +12,7 @@ export default function Resume() {
         <iframe
           title="RJ-06 software engineering resume"
           src={resumeUrl}
+          type="application/pdf"
         />
       </div>
       <p className="resume-fallback">
