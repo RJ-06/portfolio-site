@@ -83,7 +83,27 @@ export const softwareProjects = [
 ];
 
 export const itchGames = [
-    {
+  {
+    title: "Cloudy Critters",
+    embedId: "",
+    image: getAssetUrl("assets/Cloudy_Critters_Logo_Pink.png"),
+    url: "",
+    extraLinks: [
+      {
+        label: "Instagram",
+        href: "https://www.instagram.com/uclaacmstudioblack/"
+      },
+      {
+        label: "YouTube",
+        href: "https://www.youtube.com/@ACMStudioCloudyCritters/shorts"
+      },
+    ],
+    role: "Game Director, Programming",
+    description:
+      "Made by ACM Studios: Studio Black Belts, Releasing on Steam in early 2027. Cloudy Critters is a roguelike deckbuilder zoobuilder, where you build a zoo filled with different animal exhibits that synergize together to score points. Build an incredible zoo in this balatro inspired citybuilder! As game director, I've worked on significant programming and animal ability design for this game, as well as designing the general game direction.",
+  },
+
+  {
     title: "To the Ends of the Earth",
     embedId: "4474699",
     url: "https://vlad-the-inhaler.itch.io/to-the-ends-of-the-earth",
@@ -95,7 +115,22 @@ export const itchGames = [
     ],
     role: "Programming",
     description:
-      "Made for Fiat Ludum 2026, where it won Best Gameplay!. Recruit, raid, and sail in this overcooked inspired 3d pirate ship game to prove the earth is flat.",
+      "Made for Fiat Ludum 2026, where it won Best Gameplay!. Recruit, raid, and sail in this overcooked inspired 3d pirate ship game to prove the earth is flat. I did a lot of the gameplay programming, including the boss fight and fishing minigame.",
+  },
+
+  {
+    title: "Smithing Game",
+    embedId: "5192252",
+    url: "https://0megq.itch.io/smithing-game",
+    extraLinks: [
+      {
+        label: "Ludum Dare page",
+        href: "https://ldjam.com/events/ludum-dare/60/smithing-game",
+      },
+    ],
+    role: "Programming",
+    description:
+      "Made for Ludum Dare 60, theme \"Old Tech\". Smithing Game is a 3D smithing game about making models with rudimentary tools based on a prompt. I focused specifically on the online functionality: a Supabase integration in Unity that stores and loads 3D models and prompts, and a gallery and voting system where players can see other models and vote on whether they successfully achieved the prompt.",
   },
   
   {
@@ -110,7 +145,7 @@ export const itchGames = [
     ],
     role: "Programming",
     description:
-      "Made for the Club Club Jam Jam, SSH is a coding-based Sokoban puzzle about housing hermit crabs. Write code to give the different crabs different instructions, and upload different code to different crabs!.",
+      "Made for the Club Club Jam Jam, SSH is a coding-based Sokoban puzzle about housing hermit crabs. Write code to give the different crabs different instructions, and upload different code to different crabs!. I worked on the programming parser, and designed many of the levels.",
   },
   {
     title: "Couch Potatoes",
@@ -124,23 +159,8 @@ export const itchGames = [
     ],
     role: "Co-lead",
     description:
-      "Made for ACM Studio Student Run Studios 2024-2025. Local multiplayer couch vs. game of hot potato. Play across multiple stages and use multiple powerups to be the last one standing!",
-  },
-  {
-    title: "Cloudy Critters",
-    embedId: "",
-    image: getAssetUrl("assets/Cloudy_Critters_Logo_Pink.png"),
-    url: "",
-    extraLinks: [
-      {
-        label: "Instagram",
-        href: "https://www.instagram.com/uclaacmstudioblack/"
-      },
-    ],
-    role: "Game Director, Programming",
-    description:
-      "Made by ACM Studios: Studio Black Belts, Releasing on Steam on Dec. 31, 2026. Cloudy Critters is a roguelike deckbuilder zoobuilder, where you build a zoo filled with different animal exhibits that synergize together to score points. Build an incredible zoo in this balatro inspired citybuilder!",
-  },
+      "Made for ACM Studio Student Run Studios 2024-2025. Local multiplayer couch vs. game of hot potato. Play across multiple stages and use multiple powerups to be the last one standing! I was a team lead for this game, and did significant programming and powerup design.",
+  }
 ];
 
 export const nav = [
